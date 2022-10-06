@@ -1,0 +1,70 @@
+/*Globalité*/
+
+.global {
+    width: 960px;
+    margin: 0 auto;
+}
+
+
+/*Titre ci dessous*/
+
+.parc{  
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 400px;
+}
+
+
+/*Gros bloc ci dessous*/
+
+.card{  
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+height: 450px;
+width: 100%;
+padding: 20px;
+    border: solid 4px;
+    border-color: #b0215e;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: flex-end;
+    background-image:url(https://images.unsplash.com/photo-1516051662687-567d7c4e8f6a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1868&q=80);
+    image-resolution: cover;
+    background-size: cover;
+}
+
+
+/*Texte bloc blanc ci dessous*/
+
+.text{
+    color: black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: white;
+    padding: 40px; 
+}
+
+.text:hover {
+        color:red;
+        }
+
+
+.adresse{
+    font-size: 24px;
+    font-weight: 700;
+    margin: 20px;
+}
+
+.date{
+    color: #b0215e;
+    display: flex;
+    justify-content: center;
+    ;}
+
+
+/*Footer : Linkedin ci dessous*/
+
+.footer{   
+    color: #663737;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    justify-content: center;
+
+}
